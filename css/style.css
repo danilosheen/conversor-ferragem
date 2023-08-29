@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.topo{
+    width: 100%;
+    height: 100px;
+    background-color: #8b150c;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 3px 10px 0 #000000;
+    position: absolute;
+    z-index: 1;
+}
+
+.icon-topo{
+    width: 50px;
+    margin-left: 40px;
+}
+
+.container{
+    background-color: #222222;
+}
+
+.container-content{
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3b3b3b;
+    box-shadow: 3px 0 10px 0 #000000;
+
+}
+
+.campo-titulo{
+    margin-top: 150px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.seletor-funcao{
+    margin: 20px;
+}
+
+.seletor-funcao select, 
+.espessura-ferro select{
+    font-size: 20px;
+    background-color: #dddddd;
+    color: #000000;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+
+}
+
+.input-converter, .result{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.input-converter input, .result input{
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #dddddd;
+
+}
+
+.button-converter button{
+    border: none;
+    background-color: #8b150c;
+    color: white;
+    font-size: 20px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
