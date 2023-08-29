@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="topo">
+      <img class="icon-topo" src="./assets/logo.png" alt="logo-png" />
+    </div>
+    <div class="container">
+      <div class="container-content">
+        <div class="campo-titulo">
+          <h1>Conversor de ferragem</h1>
+        </div>
+        <div class="seletor-funcao">
+          <select name="opcao" id="select-opcao">
+            <option value="kgToBarra">Quilos para Barras</option>
+            <option value="barraTokg">Barras para Quilos</option>
+            <option value="mtToKg">Metros para Quilos</option>
+            <option value="kgToMt">Quilos para Metros</option>
+          </select>
+        </div>
+        <div class="espessura-ferro">
+          <select name="opcao" id="select-espessura">
+            <option value="1.308">4.2mm | 3/16"</option>
+            <option value="1.848">5.0mm | 3/15"</option>
+            <option value="2.664">6.0mm | 1/4"</option>
+            <option value="2.940">6.3mm | 1/4"</option>
+            <option value="4.740">8.0mm | 5/16"</option>
+            <option value="7.404">10.0mm | 3/8"</option>
+            <option value="11.556">12.5mm | 1/2"</option>
+            <option value="18.936">16.0mm | 5/8"</option>
+            <option value="29.592">20.0mm | 3/4"</option>
+            <option value="46.236">25.0mm | 1"</option>
+            <option value="75.756">32.0mm | 1.1/4"</option>
+
+          </select>
+        </div>
+        <div class="input-converter">
+          <input type="number" id="inputValue" placeholder="Digite um valor">
+        </div>
+        <div class="button-converter">
+          <button id="btn-converter">Converter</button>
+        </div>
+        <div class="result">
+          <input type="text" id="result" readonly placeholder="Resultado" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
