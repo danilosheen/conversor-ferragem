@@ -69,11 +69,13 @@
     border-radius: 5px;
     padding: 5px 10px;
     background-color: #dddddd;
+    text-align: center;
 
 }
 
 .result input{
-    margin-top: 40px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .button-converter button{
@@ -81,9 +83,15 @@
     background-color: #8b150c;
     color: white;
     font-size: 20px;
-    padding: 5px 30px;
-    border-radius: 5px;
+    padding: 5px 50px;
+    border-radius: 15px;
     cursor: pointer;
+}
+.result p{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
 }
 
 .rodape{
@@ -94,6 +102,8 @@
     background-color: #000000;
     color: white;
 }
+
+
 
 @media screen and (max-width: 768px) {
 
@@ -128,9 +138,18 @@
         width: 200px;
     }
 
+    .result{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
     .rodape p{
         font-size: 14px;
         text-align: center;
     }
+
+    
 
 }
