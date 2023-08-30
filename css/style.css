@@ -87,6 +87,11 @@
     border-radius: 15px;
     cursor: pointer;
 }
+
+#btn-converter:hover{
+    background-color: #c01e13;
+}
+
 .result p{
     text-align: center;
     color: white;
