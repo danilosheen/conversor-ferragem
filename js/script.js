@@ -46,7 +46,7 @@ function kgToBarra(valor, espessura) {
     var selectedValue = select.value;
     var selectedEspessura = selectEspessura.value;
   
-    if (!isNaN(inputValue)) {
+    if (!isNaN(inputValue) && inputValue > 0) {
       var selectedFunction = window[selectedValue];
   
       var resultado = selectedFunction(inputValue, selectedEspessura);
